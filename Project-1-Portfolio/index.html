@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ayesha's responsive frontend developer portfolio.">
+  <title>Ayesha | Frontend Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="ambient ambient-1" aria-hidden="true"></div>
+  <div class="ambient ambient-2" aria-hidden="true"></div>
+
+  <header class="header">
+    <div class="container header-inner">
+      <a class="logo" href="#home" aria-label="Ayesha home"></a>
+
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open navigation menu" aria-expanded="false"
+        aria-controls="mainNav">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <nav class="nav" id="mainNav" aria-label="Main navigation">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#services">Services</a>
+        <a class="nav-link" href="#projects">My Projects</a>
+        <a class="nav-link" href="#reviews">Reviews</a>
+        <a class="nav-link" href="#contact">Contact</a>
+        <a class="nav-cta" href="#contact">Contact Me</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-anchor" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">WELCOME TO MY WORLD ✦</p>
+          <h1>Hi, I'm <span>Ayesha</span></h1>
+          <h2>Frontend Developer</h2>
+          <p class="hero-copy">
+            I create intuitive, responsive and visually engaging web experiences
+            using clean code and modern web technologies.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">
+              My Projects <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a class="btn btn-outline" href="cv.pdf" target="_blank">
+              Download CV <i class="fa-solid fa-download"></i>
+            </a>
+          </div>
+
+          <div class="socials" aria-label="Social media links">
+            <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+
+        <div class="hero-photo">
+          <img src="profile.jpg" alt="Ayesha -Frontend Developer">
+        </div>
+    </section>
+
+    <section class="section section-anchor" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">WHAT I DO</p>
+          <h2>My <span>Services</span></h2>
+        </div>
+
+        <div class="service-grid">
+          <article class="glass-card service-card">
+            <div class="service-icon"><i class="fa-solid fa-code"></i></div>
+            <h3>Frontend Development</h3>
+            <p>Clean, responsive interfaces built with HTML, CSS, JavaScript and React.</p>
+          </article>
+          <article class="glass-card service-card">
+            <div class="service-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+            <h3>Responsive Design</h3>
+            <p>Layouts that adapt smoothly across mobile, tablet and desktop screens.</p>
+          </article>
+          <article class="glass-card service-card">
+            <div class="service-icon"><i class="fa-solid fa-layer-group"></i></div>
+            <h3>Web Interfaces</h3>
+            <p>User-focused pages with accessible structure, clear navigation and interactions.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-anchor about-section" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">A LITTLE ABOUT ME</p>
+          <h2>About <span>Me</span></h2>
+        </div>
+
+        <div class="about-grid">
+          <article class="glass-card about-card">
+            <div class="service-icon"><i class="fa-solid fa-laptop-code"></i></div>
+            <h3>Turning ideas into experiences</h3>
+            <p>
+              I'm a Computer Science graduate interested in frontend development.
+              I enjoy building practical, responsive websites and improving my
+              development skills through real projects.
+            </p>
+          </article>
+
+          <div class="facts">
+            <div class="glass-card fact"><span>Education</span><strong>BS Computer Science</strong></div>
+            <div class="glass-card fact"><span>Focus</span><strong>Frontend Development</strong></div>
+            <div class="glass-card fact"><span>Stack</span><strong>HTML • CSS • JS • React</strong></div>
+            <div class="glass-card fact"><span>Goal</span><strong>Build useful products</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-anchor skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">MY TOOLKIT</p>
+          <h2>Technical <span>Skills</span></h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="glass-card skill-card"><i class="fa-brands fa-html5"></i>
+            <h3>HTML5</h3>
+            <p>Semantic structure</p>
+          </article>
+          <article class="glass-card skill-card"><i class="fa-brands fa-css3-alt"></i>
+            <h3>CSS3</h3>
+            <p>Responsive styling</p>
+          </article>
+          <article class="glass-card skill-card"><i class="fa-brands fa-js"></i>
+            <h3>JavaScript</h3>
+            <p>Web interactions</p>
+          </article>
+          <article class="glass-card skill-card"><i class="fa-brands fa-react"></i>
+            <h3>React.js</h3>
+            <p>Component interfaces</p>
+          </article>
+          <article class="glass-card skill-card"><i class="fa-brands fa-node-js"></i>
+            <h3>Node.js</h3>
+            <p>APIs and backend</p>
+          </article>
+          <article class="glass-card skill-card"><i class="fa-solid fa-database"></i>
+            <h3>MySQL</h3>
+            <p>Database management</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-anchor" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">SELECTED WORK</p>
+          <h2>My <span>Projects</span></h2>
+        </div>
+
+        <div class="projects-grid">
+          <article class="glass-card project-card">
+            <div class="project-art cafe-art"><i class="fa-solid fa-mug-hot"></i></div>
+            <div class="project-body">
+              <span class="project-no">01</span>
+              <h3>Smart Cafe System</h3>
+              <p>Responsive cafe management dashboard with products, orders, inventory and analytics.</p>
+              <div class="tags"><span>React</span><span>Node.js</span><span>MySQL</span></div>
+              <a href="#" class="project-link">View Project <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </article>
+
+          <article class="glass-card project-card">
+            <div class="project-art web-art"><i class="fa-solid fa-code"></i></div>
+            <div class="project-body">
+              <span class="project-no">02</span>
+              <h3>Personal Portfolio</h3>
+              <p>A responsive personal website showcasing skills, projects and professional information.</p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <a href="#home" class="project-link">View Project <i
+                  class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </article>
+
+          <article class="glass-card project-card">
+            <div class="project-art chart-art"><i class="fa-solid fa-chart-column"></i></div>
+            <div class="project-body">
+              <span class="project-no">03</span>
+              <h3>Analytics Dashboard</h3>
+              <p>A clean interface for presenting business data, statistics and visual analytics.</p>
+              <div class="tags"><span>JavaScript</span><span>CSS</span><span>Charts</span></div>
+              <a href="#" class="project-link">View Project <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-anchor reviews-section" id="reviews">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">FEEDBACK</p>
+          <h2>Project <span>Reviews</span></h2>
+        </div>
+
+        <div class="reviews-grid">
+          <article class="glass-card review-card">
+            <div class="stars" aria-label="5 stars">★★★★★</div>
+            <p>“A clean and responsive interface with a clear user experience.”</p>
+            <strong>Project Feedback</strong>
+          </article>
+          <article class="glass-card review-card">
+            <div class="stars" aria-label="5 stars">★★★★★</div>
+            <p>“The layout works well across different screen sizes.”</p>
+            <strong>Project Feedback</strong>
+          </article>
+          <article class="glass-card review-card">
+            <div class="stars" aria-label="5 stars">★★★★★</div>
+            <p>“Simple, modern and easy to navigate.”</p>
+            <strong>Project Feedback</strong>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-anchor contact-section" id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">LET'S CONNECT</p>
+          <h2>Get In <span>Touch</span></h2>
+        </div>
+
+        <div class="contact-grid glass-card">
+          <div class="contact-copy">
+            <h3>Let's work together.</h3>
+            <p>Have an opportunity or project idea? Send me a message.</p>
+
+            <div class="contact-item">
+              <i class="fa-solid fa-envelope"></i>
+              <div><span>Email</span><strong>Ayeshaabidhussain401@gmail.com</strong></div>
+            </div>
+            <div class="contact-item">
+              <i class="fa-brands fa-linkedin-in"></i>
+              <div><span>LinkedIn</span><strong>Ayesha Abid</strong></div>
+            </div>
+          </div>
+
+          <form id="contactForm" class="contact-form">
+            <label for="name">Your Name</label>
+            <input id="name" name="name" type="text" placeholder="Enter your name" required>
+
+            <label for="email">Your Email</label>
+            <input id="email" name="email" type="email" placeholder="Enter your email" required>
+
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+
+            <button class="btn btn-primary" type="submit">
+              Send Message <i class="fa-solid fa-paper-plane"></i>
+            </button>
+            <p class="form-message" id="formMessage" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="logo" href="#home">Ayesha</a>
+      <p>© 2026 Ayesha. Built with HTML, CSS & JavaScript.</p>
+      <a class="back-top" href="#home" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
